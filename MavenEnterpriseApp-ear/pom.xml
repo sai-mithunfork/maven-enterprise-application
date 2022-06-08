@@ -22,7 +22,19 @@
             <artifactId>MavenEnterpriseApp-web</artifactId>
             <version>1.0</version>
             <type>war</type>
-        </dependency>
+      </dependency>
     </dependencies>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://3.110.177.86:9032/sainatraj/repository/facebook-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://3.110.177.86:9032/sainatraj/repository/facebook-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 </project>
 
